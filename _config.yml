@@ -1,1 +1,2 @@
-server: auto
+server: true
+auto: true
