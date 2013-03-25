@@ -1,112 +1,102 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Canova Construction - General Contractors - Marblehead, Massachusetts | Home</title>
-    <meta charset="UTF-8">
-    <meta name="keywords" content="home building, renovations, condominiums, new homes, construction, historical, contractor, general contractor, building, modeling, sub contractor, joe, canova, marblehead, massachusetts, usa, quality, carpentry, painting, demolition, remodeling, buildings, structural, service, knowledge, experience, skill, professional, additions, addition, home addition">
-    <meta name="description" content="Joseph Canova started Canova Construction in 1982 and the business primarily dealt with the renovation of investment properties and building spec houses. After completing construction of a new home for the CFO of F.W. Webb, Canova Construction moved into the development of industrial facilities for the Webb companies. It was in this corporate world of budget and time restraints that Joe learned how to successfully manage large construction projects. Later the direction of the company changed its focus to building and remodeling residential homes in the North shore area. Today we are a small company with the ability to give a high degree of individual attention to every project. We specialize in small home construction as well as complete home renovation-to include condominium renovations as well as additions.">
-    <meta name="author" content="Ellis Berner">
-    <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
-    <link href='http://fonts.googleapis.com/css?family=Carrois+Gothic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/stylesheets/application.css" type="text/css" media="screen">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $("a[rel=group]").fancybox({
-          openEffect: 'elastic'
-          helpers : {
-            title: {
-              type: 'over'
-            }
-          }
-        });
+---
+layout: default
+---
 
-        $("ul.lineList a").each(function(){
-          if(window.location.href.match($(this).attr("href")))
-            $(this).parent().addClass("active");
-        });
-      });
-    </script>
-  </head>
+<body id="projects">
+  <div id="mainContainer">
+    <div id="header">
+      <h1><a href="index.php">Canova Construction</a></h1>
 
-  <body id="projects">
+      <ul class="nav">
+        <li><a href="/">Home</a></li>
 
-    <div id="mainContainer">
-      <div id="header">
-        <h1><a href="index.php">Canova Construction</a></h1>
-        <ul class="nav">
-          <li><a href="index.php">Home</a></li>
-          <li><a href="projects.php" class="active">Projects</a></li>
-          <li><a href="whyus.php">Why Us?</a></li>
-          <li class="last"><a href="contact.php">Contact</a></li>
-        </ul>
-      </div>
-  <div id="content">
-        <div class="sectionNav">
+        <li><a class="active" href="/projects">Projects</a></li>
+
+        <li><a href="/why_us">Why Us?</a></li>
+
+        <li class="last"><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div id="content">
+      <div class="sectionNav">
         <ul class="lineList">
-          <li><a href="renovations.php">Renovations</a></li>
+          <li class="active"><a href="renovations.php">Renovations</a></li>
+
           <li><a href="condominiums.php">Condominiums</a></li>
+
           <li><a href="historical.php">Historical</a></li>
+
           <li><a href="new_homes.php">New Homes</a></li>
         </ul>
       </div>
-    <ul class="photoNav">
-      <li class="first">Page:</li>
-      <li><a href="/renovations.php" class="active">1</a></li>
-      <li><a href="/renovations-2.php">2</a></li>
-      <li class="last"><a href="/renovations-3.php">3</a></li>
-    </ul>
-    <div class="inner clearIt">
 
-      <div class="left">
-        <p class="top">
-          <a rel="group" href="/assets/images/portfolio/renovations/1_b.png"><img src="/assets/images/portfolio/renovations/1_s.png" /></a>
-          <a rel="group" href="/assets/images/portfolio/renovations/2_b.png"><img src="/assets/images/portfolio/renovations/2_s.png" /></a>
-          <a rel="group" href="/assets/images/portfolio/renovations/3_b.png"><img src="/assets/images/portfolio/renovations/3_s.png" /></a>
-          <a rel="group" href="/assets/images/portfolio/renovations/4_b.png"><img src="/assets/images/portfolio/renovations/4_s.png" /></a>
-        </p>
-        <p>
-          <a rel="group" href="/assets/images/portfolio/renovations/5_b.png"><img src="/assets/images/portfolio/renovations/5_s.png" /></a>
-          <a rel="group" href="/assets/images/portfolio/renovations/6_b.png"><img src="/assets/images/portfolio/renovations/6_s.png" /></a>
-          <a rel="group" href="/assets/images/portfolio/renovations/7_b.png"><img src="/assets/images/portfolio/renovations/7_s.png" /></a>
-          <a rel="group" href="/assets/images/portfolio/renovations/8_b.png"><img src="/assets/images/portfolio/renovations/8_s.png" /></a>
-        </p>
-        <p>
-            <a rel="group" href="/assets/images/portfolio/renovations/9_b.png"><img src="/assets/images/portfolio/renovations/9_s.png" /></a>
-            <a rel="group" href="/assets/images/portfolio/renovations/10_b.png"><img src="/assets/images/portfolio/renovations/10_s.png" /></a>
-            <a rel="group" href="/assets/images/portfolio/renovations/11_b.png"><img src="/assets/images/portfolio/renovations/11_s.png" /></a>
-            <a rel="group" href="/assets/images/portfolio/renovations/12_b.png"><img src="/assets/images/portfolio/renovations/12_s.png" /></a>     </p>
+      <ul class="photoNav">
+        <li class="first">Page:</li>
 
+        <li><a href="/renovations.php" class="active">1</a></li>
+
+        <li><a href="/renovations-2.php">2</a></li>
+
+        <li class="last"><a href="/renovations-3.php">3</a></li>
+      </ul>
+
+      <div class="inner clearIt">
+        <div class="left">
+          <p class="top"><a data-fancybox-group="group" class="fancybox" href=
+          "/images/portfolio/renovations/1_b.png"><img src=
+          "/images/portfolio/renovations/1_s.png" /></a> <a data-fancybox-group="group" class="fancybox" href=
+          "/images/portfolio/renovations/2_b.png"><img src=
+          "/images/portfolio/renovations/2_s.png" /></a> <a data-fancybox-group="group" class="fancybox" href=
+          "/images/portfolio/renovations/3_b.png"><img src=
+          "/images/portfolio/renovations/3_s.png" /></a> <a data-fancybox-group="group" class="fancybox" href=
+          "/images/portfolio/renovations/4_b.png"><img src=
+          "/images/portfolio/renovations/4_s.png" /></a></p>
+
+          <p><a data-fancybox-group="group" class="fancybox" href="/images/portfolio/renovations/5_b.png"><img src=
+          "/images/portfolio/renovations/5_s.png" /></a> <a data-fancybox-group="group" class="fancybox" href=
+          "/images/portfolio/renovations/6_b.png"><img src=
+          "/images/portfolio/renovations/6_s.png" /></a> <a data-fancybox-group="group" class="fancybox" href=
+          "/images/portfolio/renovations/7_b.png"><img src=
+          "/images/portfolio/renovations/7_s.png" /></a> <a data-fancybox-group="group" class="fancybox" href=
+          "/images/portfolio/renovations/8_b.png"><img src=
+          "/images/portfolio/renovations/8_s.png" /></a></p>
+
+          <p><a data-fancybox-group="group" class="fancybox" href="/images/portfolio/renovations/9_b.png"><img src=
+          "/images/portfolio/renovations/9_s.png" /></a> <a data-fancybox-group="group" class="fancybox" href=
+          "/images/portfolio/renovations/10_b.png"><img src=
+          "/images/portfolio/renovations/10_s.png" /></a> <a data-fancybox-group="group" class="fancybox"  href=
+          "/images/portfolio/renovations/11_b.png"><img src=
+          "/images/portfolio/renovations/11_s.png" /></a> <a data-fancybox-group="group" class="fancybox"  href=
+          "/images/portfolio/renovations/12_b.png"><img src=
+          "/images/portfolio/renovations/12_s.png" /></a></p>
+        </div>
+
+        <div class="right">
+          <p>Many of our renovation projects require us to remove all of an existing
+          buildings components back to the structural frame, often times as in the case
+          of home construction we are also required to build additions onto the
+          renovation. Renovation more than any other type of construction requires the
+          most amount of experience and skill. The knowledge and effort required in
+          attaching new materials to the old to achieve a seamless transition into
+          whatever style, historic, modern or the existing is where Canova Construction
+          excels and separates itself from other contractors. At Canova Construction we
+          pride ourselves on our renovation abilities.</p>
+
+          <p>In new construction interpreting a one dimensional plan into a three
+          dimensional structure is where the challenge lies. Design problems can develop
+          as the building evolves and how to resolve those problems takes an experienced
+          team of construction professionals. The famous architect Frank Lloyd Wright is
+          quoted as saying "An architect's best tool is his eraser." At Canova
+          Construction we feel our best tool is our creativity in finding design
+          solutions.</p>
+        </div>
       </div>
-
-      <div class="right">
-        <p>Many of our renovation projects require us to remove all of an existing buildings components back to the structural frame, often times as in the case of home construction we are also required to build additions onto the renovation. Renovation more than any other type of construction requires the most amount of experience and skill. The knowledge and effort required in attaching new materials to the old to achieve a seamless transition into whatever style, historic, modern or the existing is where Canova Construction excels and separates itself from other contractors. At Canova Construction we pride ourselves on our renovation abilities.</p>
-        <p>In new construction interpreting a one dimensional plan into a three dimensional structure is where the challenge lies. Design problems can develop as the building evolves and how to resolve those problems takes an experienced team of construction professionals. The famous architect Frank Lloyd Wright is quoted as saying "An architect's best tool is his eraser." At Canova Construction we feel our best tool is our creativity in finding design solutions.</p>
-
-      </div>
-
     </div>
 
+    <div id="footer">
+      <a href="http://canovaconstruction.net">canovaconstruction.net</a> &copy; 2013
+      Canova Construction
+    </div>
   </div>
-
-      <div id="footer">
-        <a href="http://canovaconstruction.net">canovaconstruction.net</a> &copy; 2013 Canova Construction
-      </div>
-
-
-
-    </div>
-    <script type="text/javascript"> Cufon.now(); </script>
-
-    <script type="text/javascript">
-      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-      </script>
-      <script type="text/javascript">
-      try {
-      var pageTracker = _gat._getTracker("UA-12479930-1");
-      pageTracker._trackPageview();
-      } catch(err) {}</script>
-
-  </body>
-</html>
+</body>
