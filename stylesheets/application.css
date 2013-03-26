@@ -37,7 +37,7 @@ ul.nav li.last{border:0;}
 #content .left a{color:#110a02;}
 #content .inner{padding-top:45px;}
 #content .right{color:#515248;line-height:18px;}
-body#contact .right{width:246px;color:#7b7d92;font-size:14px;line-height:18px;}
+body#contact .right{width:246px;font-size:14px;line-height:18px;}
 #content .whyus{color:#7b7d92;font-size:14px;line-height:18px;margin-bottom:40px;}
 #content h2{color:#110a02;font-size:12px;padding-bottom:10px;}
 hr{height:1px;background-color:#c4df9b;margin-bottom:20px;border:none;}
@@ -79,9 +79,9 @@ a.rollover:hover{background-position:right;}
 .displace{position:absolute;left:-5000px;}
 body#home{background-image:url('/images/interface/bg_home.png');}
 body#home div#homeSplash{background:url('/images/interface/homesplash.png') no-repeat center;position:absolute;left:0;top:100px;width:100%;height:254px;}
-#homeContent{color:#2a2928;line-height:21px;padding-top:50px;}
+#homeContent{color:#2a2928;line-height:21px;padding-top:80px;}
 #homeContent .left{width:523px;}
-#homeContent .right{float:right;width:245px;line-height:16px;}
+#homeContent .right{float:right;width:245px;}
 #homeContent h2,.contactContent h2{position:absolute;left:0;top:-91px;width:160px;}
 blockquote{margin:0 0 30px;padding:0 0 30px;}
 blockquote.borderBottom{border-bottom:1px solid #332e22;}
@@ -92,11 +92,11 @@ p.logoQuestion a{display:block;width:246px;height:84px;background:url('/images/i
 p.available,p.not_available{height:20px;color:#f2f2ed;font-size:10px;font-weight:700;line-height:20px;background:url('/images/interface/available.gif') no-repeat 0 0;overflow:hidden;margin-top:3em;padding:0 0 0 39px;}
 p.not_available{background-position:0 -20px;}
 h3{color:#110a02;margin-bottom:1.5em;font-size:12px;}
-.contactContent{padding-top:50px;color:#82826c;line-height:21px;}
+.contactContent{padding-top:80px;color:#515248;line-height:21px;}
 .contactContent p{margin-bottom:0.5em;}
 .contactContent .aColumn{width:256px;float:left;margin-right:10px;position:relative;}
 #content li{color:#110a02;font-size:14px;}
-#content li p{color:#82826c;font-size:12px;}
+#content li p{color:#515248;font-size:12px;}
 #contactForm{color:#82826c;padding:30px;}
 form#contactForm label{float:left;width:125px;padding:2px;}
 form#contactForm input,form#contactForm textarea{border:1px solid #b3b3b3;width:325px;font:12px Verdana, Arial, Helvetica, sans-serif;padding:2px;}
